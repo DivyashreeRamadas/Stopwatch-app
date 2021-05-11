@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+body{
+  background-color:darksalmon;
+}
+
+.section{
+  text-align: center;
+}
+
+.timer{
+  font-size: 100px;
+}
+
+.buttons{
+  border-radius: 10px;
+  margin:10px;
+  padding: 5px;
+  display: inline-block;
+  justify-content: space-between;
+  background-color:lightgrey;
+  border: none;
+  width: 100px;
+}
+
+.buttons:hover{
+  background-color:honeydew;
+  cursor: pointer;
+}
